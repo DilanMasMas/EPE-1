@@ -16,7 +16,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body style=" background-image: url(https://2.bp.blogspot.com/-p9Qu1Qm4T0s/VVRih6rzBVI/AAAAAAAAA3A/-abFRED1sMI9KiUjlIH4wukOTotZGxxhwCPcBGAYYCw/s1600/diadellibro230415.jpg);">
-       <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="index.jsp">LibrosQueSeLeen</a>
@@ -28,6 +28,8 @@
     </ul>
   </div>
 </nav>
+        
+    
   
 
     </body>
