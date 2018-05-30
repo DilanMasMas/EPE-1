@@ -21,7 +21,7 @@
         <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.jsp">LibrosQueSeLeen</a>
+      <a class="navbar-brand" href="index.jsp">LibrosQueSeLeen</a> <%--Nombre del Index--%>
     </div>
     
     <ul class="nav navbar-nav navbar-right">
@@ -34,14 +34,14 @@
         <form>
             <div align="center">
                <div class="form-group" >
-    <label for="exampleInputEmail1">Usuario:</label>
+    <label for="exampleInputEmail1">Usuario:</label> <%--Usuario--%>
     <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Contraseña:</label>
+    <label for="exampleInputPassword1">Contraseña:</label> <%--Contraseña--%>
     <input style="width: 300px;" type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese Contraseña">
   </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button> <%--Boton de Inicio de sesión--%>
   </div>
 </form>
     </body>
