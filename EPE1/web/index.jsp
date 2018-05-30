@@ -5,6 +5,9 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import ="conexion.mostrarlibros" %> 
+<%@page import ="controlador.control"%> 
+<%@page import ="java.util.LinkedList"%> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +18,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body style=" background-image: url(https://2.bp.blogspot.com/-p9Qu1Qm4T0s/VVRih6rzBVI/AAAAAAAAA3A/-abFRED1sMI9KiUjlIH4wukOTotZGxxhwCPcBGAYYCw/s1600/diadellibro230415.jpg);">
-       <nav class="navbar navbar-inverse">
+<body style=" background-image: url(https://get.wallhere.com/photo/white-black-depth-of-field-wooden-surface-shadow-wood-books-green-writing-light-color-hand-material-shape-line-darkness-wing-1366x768-px-close-up-macro-photography-547399.jpg);">
+        <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="index.jsp">LibrosQueSeLeen</a>
@@ -28,14 +31,62 @@
     </ul>
   </div>
 </nav>
-  
+
+  <form>
+            <div style="position: relative; top: 80px; left: 200px;">
+               <div class="form-group" >
+    <label for="exampleInputEmail1">Nombre:</label>
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
+  </div>
+              
+                          <div class="form-group" >
+    <label for="exampleInputEmail1">Rut:</label>
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
+  </div>
+               
+                          <div class="form-group" >
+    <label for="exampleInputEmail1">Direccion:</label>
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
+  </div>
+                 <div class="form-group" >
+    <label for="exampleInputEmail1">Libro: </label>
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
+  </div>
+     <button type="submit" class="btn btn-primary">Submit</button>
+  </div >
+      <div style="position: relative;bottom: 200px; left: 800px;">
+          <table class=" table-bordered" style="color: white;">
+   <thead >
+      <tr >
+        <th>Seleccionar</th>
+        <th>Nombre</th>
+        <th>Stock</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <%
+LinkedList<mostrarlibros> lista = control.getLibros();
+for (int i=0;i<lista.size();i++)
+{
+   out.println("<tr>");
+   out.println("<td>"+lista.get(i).getId_l()+"</td>");
+   out.println("<td>"+lista.get(i).getLibro()+"</td>");
+   out.println("<td>"+lista.get(i).getStock()+"</td>");
+   out.println("</tr>");
+}
+%>
+      </tr>
+    </tbody>
+  </table>
+      </div>
+      
+      
+</form>
 
     </body>
-    <!--
-    
+    <!--  
     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>????
-    
-    
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
