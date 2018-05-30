@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package conexion;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
-/**
- *
- * @author Dilan
- */
 public class conexionBD {
-    
+
+    Connection conexion = null;
+    Statement sentencia = null;
+    ResultSet resultados = null;
+    String nombreBD = "biblioteca";
+    String url = "jdbc:mysql://localhost:3306/" + nombreBD;
+    String usuario = "root";
+    String password = "";
 }

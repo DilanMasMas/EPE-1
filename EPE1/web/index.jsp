@@ -5,6 +5,9 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import ="conexion.mostrarlibros" %> 
+<%@page import ="controlador.control"%> 
+<%@page import ="java.util.LinkedList"%> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,43 +38,44 @@
     <label for="exampleInputEmail1">Nombre:</label>
     <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
   </div>
-                </br>
+              
                           <div class="form-group" >
     <label for="exampleInputEmail1">Rut:</label>
     <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
   </div>
-                </br>
+               
                           <div class="form-group" >
     <label for="exampleInputEmail1">Direccion:</label>
     <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
   </div>
-             </br>   
+                 <div class="form-group" >
+    <label for="exampleInputEmail1">Libro: </label>
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
+  </div>
      <button type="submit" class="btn btn-primary">Submit</button>
   </div >
-      <div style="position: relative;bottom: 200px; left: 500px;">
-          <table class=" table-bordered" >
+      <div style="position: relative;bottom: 200px; left: 800px;">
+          <table class=" table-bordered" style="color: white;">
    <thead >
       <tr >
-        <th >Seleccionar</th>
-        <th >Nombre</th>
+        <th>Seleccionar</th>
+        <th>Nombre</th>
         <th>Stock</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
+        <%
+LinkedList<mostrarlibros> lista = control.getLibros();
+for (int i=0;i<lista.size();i++)
+{
+   out.println("<tr>");
+   out.println("<td>"+lista.get(i).getId_l()+"</td>");
+   out.println("<td>"+lista.get(i).getLibro()+"</td>");
+   out.println("<td>"+lista.get(i).getStock()+"</td>");
+   out.println("</tr>");
+}
+%>
       </tr>
     </tbody>
   </table>
