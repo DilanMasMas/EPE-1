@@ -22,7 +22,7 @@
         <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.jsp">LibraryMMD</a>
+      <a class="navbar-brand" href="index.jsp">Library MMD</a>
     </div>
     
     <ul class="nav navbar-nav navbar-right">
@@ -32,25 +32,25 @@
   </div>
 </nav>
 
-  <form>
+    <form action="recibir.jsp">
             <div style="position: relative; top: 80px; left: 200px;">
                <div class="form-group" >
     <label for="exampleInputEmail1">Nombre:</label>
-    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Nombre Completo" name="nombre">
   </div>
               
                           <div class="form-group" >
     <label for="exampleInputEmail1">Rut:</label>
-    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su rut" name="rut">
   </div>
                
                           <div class="form-group" >
     <label for="exampleInputEmail1">Direccion:</label>
-    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su direccion" name="direccion">
   </div>
                  <div class="form-group" >
     <label for="exampleInputEmail1">Libro: </label>
-    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Usuario">
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese id del libro" name="libro">
   </div>
      <button type="submit" class="btn btn-primary">Submit</button>
   </div >
@@ -58,7 +58,7 @@
           <table class=" table-bordered" style="color: white;">
    <thead >
       <tr >
-        <th>Seleccionar</th>
+        <th>id del libro</th>
         <th>Nombre</th>
         <th>Stock</th>
       </tr>
