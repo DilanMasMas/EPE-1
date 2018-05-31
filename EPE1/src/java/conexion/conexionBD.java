@@ -7,6 +7,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+//Aqui se establece la conexion en la base de datos 
+
 public class conexionBD {
 
   
@@ -19,6 +21,8 @@ public class conexionBD {
     String url = "jdbc:mysql://localhost:3306/" + nombreBD;
     String usuario = "root";
     String password = "";
+
+
     
     try{
         Class.forName("com.mysql.jdbc.Driver");
@@ -35,7 +39,7 @@ public class conexionBD {
     return "Error"+Error.getMessage();
     }
     }
-    
+}
     
     
     
@@ -94,4 +98,4 @@ public class conexionBD {
 
         }
     }*/
-}
+
