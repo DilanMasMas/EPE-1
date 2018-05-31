@@ -12,6 +12,6 @@
         <title>Bibliotic MMD</title>
     </head>
     <body>
-        <h1>Libros</h1>
+        <h1>Libros Mas Pedidos</h1>
     </body>
 </html>
