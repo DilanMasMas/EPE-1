@@ -27,12 +27,14 @@ import java.sql.Statement;
  */
 @WebServlet(name = "control", urlPatterns = {"/control"})
 
+
 public class control extends HttpServlet {
 
     public static LinkedList<mostrarlibros> getLibros()
    {
        
       LinkedList<mostrarlibros> listaLibros=new LinkedList<mostrarlibros>();
+      
       try
       {
          Class.forName("com.mysql.jdbc.Driver");
@@ -41,7 +43,8 @@ public class control extends HttpServlet {
          ResultSet rs = st.executeQuery("select * from libros" );
          while (rs.next())
          {
-            mostrarlibros mLibros = new mostrarlibros();
+            
+             mostrarlibros mLibros = new mostrarlibros();
             mLibros.setId_l(rs.getInt("id_l"));
             mLibros.setLibro(rs.getString("libro"));
             mLibros.setStock(rs.getInt("stock"));
@@ -71,6 +74,8 @@ public class control extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         
+        
+        
         String nombre = request.getParameter("nombre");
         int rut = Integer.parseInt(request.getParameter("rut"));
         String direccion= request.getParameter("direccion");
@@ -84,12 +89,13 @@ public class control extends HttpServlet {
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet control</title>");            
-            out.println("</head>");
+            out.println("</head> <body style=\" background-image: url(https://get.wallhere.com/photo/white-black-depth-of-field-wooden-surface-shadow-wood-books-green-writing-light-color-hand-material-shape-line-darkness-wing-1366x768-px-close-up-macro-photography-547399.jpg);\">");
             out.println("<body>");
             out.println("<h1>"+conexionBD.ingresar(nombre, rut, direccion, libro)+"</h1>");
             out.println("<a href='index.jsp'><input type='submit' value='Regresar'></a>");
             out.println("</body>");
             out.println("</html>");
+            
         }
     }
 
