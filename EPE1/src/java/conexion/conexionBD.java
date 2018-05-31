@@ -9,6 +9,9 @@ import java.util.List;
 
 public class conexionBD {
 
+  
+    
+     public static String ingresar(String nombre, int rut, String direccion, int libro){
     Connection conexion = null;
     Statement sentencia = null;
     ResultSet resultados = null;
@@ -16,7 +19,39 @@ public class conexionBD {
     String url = "jdbc:mysql://localhost:3306/" + nombreBD;
     String usuario = "root";
     String password = "";
-    public void Conx(){
+    
+    try{
+        Class.forName("com.mysql.jdbc.Driver");
+    conexion = DriverManager.getConnection(url,usuario,password);
+    sentencia = conexion.createStatement();
+    String SQL = "INSERT INTO clientes (id_c, nombre, rut, direccion, libro_p) VALUES (null,'"+nombre+"','"+rut+"','"+direccion+"','"+libro+"');";
+    sentencia.executeUpdate(SQL);
+    sentencia.close();
+    conexion.close();
+    return "Datos ingresados correctamente";
+    }catch(ClassNotFoundException | SQLException Error){
+    return "Error"+Error.getMessage();
+    }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   /* public void Conx(){
     
          try {
            
@@ -24,16 +59,16 @@ public class conexionBD {
             conexion = DriverManager.getConnection(
                     url, usuario, password);
             sentencia = conexion.createStatement();
-             System.out.println("jlsjldsfjkl");
+             System.out.println("<script>alert('conecio !!!');</script>");
                      
         } catch (ClassNotFoundException | SQLException e) {
 
-            System.out.println("Error" + e);
+            System.out.println("<script>alert('conecio !!!')"+e+";</script>");
 
         }
     }
     
-   /* public String insertarCliente(){
+    public String insertarCliente(){
     
         String mensaje=null;
     try {
