@@ -64,10 +64,15 @@ public class conexionBD {
     rs = st.executeQuery("select * from administradores where nombre_u='" + nombre_u + "' and contraseña='" + contraseña + "'");
     if (rs.next()) {
         
-        alerta="<script>alert('Bienvenido');</script>";
+        alerta="<script>alert('BIENVENIDO');"
+                    + "location.href='administracion.jsp';"
+                    + "</script>";;
         
     } else {
-       alerta="<script>alert('Datos incorrectos');</script>";
+       alerta="<script>alert('Datos incorrectos');"
+                    + "location.href='login.jsp';"
+                    + "</script>";
+       
     }
          }catch(Exception e){
          
