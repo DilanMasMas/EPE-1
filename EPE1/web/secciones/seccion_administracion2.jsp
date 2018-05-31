@@ -11,8 +11,8 @@
     Clientes
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Editar</a>
-    <a class="dropdown-item" href="#">Eliminar</a>
+    <a class="dropdown-item" href="editar_cliente.jsp">Editar</a>
+    <a class="dropdown-item" href="eliminar_cliente.jsp">Eliminar</a>
   </div>
 </div>
       <div class="dropdown">
@@ -20,9 +20,9 @@
     Libro
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Ingresar</a>
-    <a class="dropdown-item" href="#">Editar</a>
-    <a class="dropdown-item" href="#">Eliminar</a>
+    <a class="dropdown-item" href="ingresar_libros.jsp">Ingresar</a>
+    <a class="dropdown-item" href="editar_libros.jsp">Editar</a>
+    <a class="dropdown-item" href="eliminar_libros.jsp">Eliminar</a>
   </div>
 </div>
       <div class="dropdown">
@@ -30,9 +30,9 @@
     Administracion
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Ingresar</a>
-    <a class="dropdown-item" href="#">Editar</a>
-    <a class="dropdown-item" href="#">Eliminar</a>
+    <a class="dropdown-item" href="ingresar_admin.jsp">Ingresar</a>
+    <a class="dropdown-item" href="editar_admin.jsp">Editar</a>
+    <a class="dropdown-item" href="eliminar_admin.jsp">Eliminar</a>
   </div>
       <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
