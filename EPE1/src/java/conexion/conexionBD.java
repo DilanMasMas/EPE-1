@@ -29,7 +29,9 @@ public class conexionBD {
     conexion = DriverManager.getConnection(url,usuario,password);
     sentencia = conexion.createStatement();
     String SQL = "INSERT INTO clientes (id_c, nombre, rut, direccion, libro_p) VALUES (null,'"+nombre+"','"+rut+"','"+direccion+"','"+libro+"');";
+    String SQL2 ="UPDATE libros SET stock = IFNULL(stock,0) - 1 WHERE id_l='"+libro+"';";
     sentencia.executeUpdate(SQL);
+    sentencia.executeUpdate(SQL2);
     sentencia.close();
     conexion.close();
     return "Datos ingresados correctamente";
