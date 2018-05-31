@@ -5,6 +5,7 @@
  */
 package controlador;
 import conexion.mostrarlibros;
+import conexion.conexionBD;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -65,9 +66,18 @@ public class control extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
+    
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
+        
+        String nombre = request.getParameter("nombre");
+        int rut = Integer.parseInt(request.getParameter("rut"));
+        String direccion= request.getParameter("direccion");
+        int libro = Integer.parseInt(request.getParameter("libro"));
+       
+        
+        
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
@@ -76,7 +86,8 @@ public class control extends HttpServlet {
             out.println("<title>Servlet control</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet control at " + request.getContextPath() + "</h1>");
+            out.println("<h1>"+conexionBD.ingresar(nombre, rut, direccion, libro)+"</h1>");
+            out.println("<a href='index.jsp'><input type='submit' value='Regresar'></a>");
             out.println("</body>");
             out.println("</html>");
         }
