@@ -8,6 +8,7 @@
 <%@page import ="conexion.mostrarlibros" %> 
 <%@page import ="controlador.control"%> 
 <%@page import ="java.util.LinkedList"%> 
+<%@page import ="conexion.conexionBD" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +32,10 @@
     </ul>
   </div>
 </nav>
-
+       <%
+       conexionBD con = new conexionBD();
+       con.Conx();
+       %>
     <form action="recibir.jsp">
             <div style="position: relative; top: 80px; left: 200px;">
                <div class="form-group" >

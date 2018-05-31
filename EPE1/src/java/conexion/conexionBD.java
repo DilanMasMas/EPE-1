@@ -16,9 +16,26 @@ public class conexionBD {
     String url = "jdbc:mysql://localhost:3306/" + nombreBD;
     String usuario = "root";
     String password = "";
+    public void Conx(){
     
-    public void insertarCliente(){
+         try {
+           
+            Class.forName("com.mysql.jdbc.Driver");
+            conexion = DriverManager.getConnection(
+                    url, usuario, password);
+            sentencia = conexion.createStatement();
+             System.out.println("jlsjldsfjkl");
+                     
+        } catch (ClassNotFoundException | SQLException e) {
+
+            System.out.println("Error" + e);
+
+        }
+    }
     
+   /* public String insertarCliente(){
+    
+        String mensaje=null;
     try {
            
             Class.forName("com.mysql.jdbc.Driver");
@@ -39,6 +56,5 @@ public class conexionBD {
             System.out.println("Error" + e);
 
         }
-        
-    }
+    }*/
 }
