@@ -4,8 +4,6 @@
  * and open the template in the editor.
  */
 package controlador;
-import conexion.mostrarlibros;
-import conexion.conexionBD;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,52 +12,15 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.LinkedList;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import conexion.conexionBD;
 
 /**
  *
  * @author Dilan
  */
-@WebServlet(name = "control", urlPatterns = {"/control"})
+@WebServlet(name = "validar", urlPatterns = {"/validar"})
+public class validar extends HttpServlet {
 
-
-public class control extends HttpServlet {
-
-    public static LinkedList<mostrarlibros> getLibros()
-   {
-       
-      LinkedList<mostrarlibros> listaLibros=new LinkedList<mostrarlibros>();
-      
-      try
-      {
-         Class.forName("com.mysql.jdbc.Driver");
-         Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteca", "root", "");
-         Statement st = conexion.createStatement();
-         ResultSet rs = st.executeQuery("select * from libros" );
-         while (rs.next())
-         {
-            
-             mostrarlibros mLibros = new mostrarlibros();
-            mLibros.setId_l(rs.getInt("id_l"));
-            mLibros.setLibro(rs.getString("libro"));
-            mLibros.setStock(rs.getInt("stock"));
-            listaLibros.add(mLibros);
-         }
-         rs.close();
-         st.close();
-         conexion.close();
-      }
-      catch (Exception e)
-      {
-         e.printStackTrace();
-      }
-      return listaLibros;
-   }
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -69,34 +30,27 @@ public class control extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         
+        String us = request.getParameter("usuario");
+        String cn = request.getParameter("password");
         
         
-        String nombre = request.getParameter("nombre");
-        int rut = Integer.parseInt(request.getParameter("rut"));
-        String direccion= request.getParameter("direccion");
-        int libro = Integer.parseInt(request.getParameter("libro"));
-       
         conexionBD con = new conexionBD();
-        
-        
         
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet control</title>"); 
+            out.println("<title>Servlet validar</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println(con.ingresar(nombre, rut, direccion, libro));
+            out.println(con.validar(us, cn));
             out.println("</body>");
             out.println("</html>");
-            
         }
     }
 

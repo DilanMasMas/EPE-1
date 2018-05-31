@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/java/conexion/conexionBD.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>133</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/chelo/Documents/GitHub/EPE-1/EPE1/web/index.jsp</file>
             <file>file:/C:/Users/chelo/Documents/GitHub/EPE-1/EPE1/src/java/controlador/control.java</file>
             <file>file:/C:/Users/chelo/Documents/GitHub/EPE-1/EPE1/src/java/conexion/conexionBD.java</file>
+=======
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/secciones/seccion_index3.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/Libros.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/index.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/login.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/secciones/seccion_index1.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/secciones/seccion_login.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/src/java/controlador/control.java</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/editar_cliente.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/eliminar_libros.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/src/java/conexion/conexionBD.java</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/ingresar_libros.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/eliminar_cliente.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/editar_libros.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/eliminar_admin.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/secciones/seccion_index2.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/src/java/conexion/mostrarlibros.java</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/ingresar_admin.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/editar_admin.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/web/administracion.jsp</file>
+            <file>file:/C:/Users/Dilan/Documents/GitHub/EPE-1/EPE1/src/java/controlador/validar.java</file>
+>>>>>>> c8a5a08bb2b0ef8148a29b2e9758c3fdfadd0607
         </group>
     </open-files>
 </project-private>
