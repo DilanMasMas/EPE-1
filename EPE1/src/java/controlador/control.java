@@ -6,6 +6,8 @@
 package controlador;
 import conexion.mostrarlibros;
 import conexion.conexionBD;
+import conexion.mostraradmin;
+import conexion.mostrarcliente;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -31,6 +33,66 @@ import java.sql.Statement;
 public class control extends HttpServlet {
 
     public static LinkedList<mostrarlibros> getLibros()
+   {
+       
+      LinkedList<mostrarlibros> listaLibros=new LinkedList<mostrarlibros>();
+      
+      try
+      {
+         Class.forName("com.mysql.jdbc.Driver");
+         Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteca", "root", "");
+         Statement st = conexion.createStatement();
+         ResultSet rs = st.executeQuery("select * from libros" );
+         while (rs.next())
+         {
+            
+             mostrarlibros mLibros = new mostrarlibros();
+            mLibros.setId_l(rs.getInt("id_l"));
+            mLibros.setLibro(rs.getString("libro"));
+            mLibros.setStock(rs.getInt("stock"));
+            listaLibros.add(mLibros);
+         }
+         rs.close();
+         st.close();
+         conexion.close();
+      }
+      catch (Exception e)
+      {
+         e.printStackTrace();
+      }
+      return listaLibros;
+   }
+    public static LinkedList<mostrarcliente> getNombre()
+   {
+       
+      LinkedList<mostrarlibros> listaLibros=new LinkedList<mostrarlibros>();
+      
+      try
+      {
+         Class.forName("com.mysql.jdbc.Driver");
+         Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteca", "root", "");
+         Statement st = conexion.createStatement();
+         ResultSet rs = st.executeQuery("select * from libros" );
+         while (rs.next())
+         {
+            
+             mostrarlibros mLibros = new mostrarlibros();
+            mLibros.setId_l(rs.getInt("id_l"));
+            mLibros.setLibro(rs.getString("libro"));
+            mLibros.setStock(rs.getInt("stock"));
+            listaLibros.add(mLibros);
+         }
+         rs.close();
+         st.close();
+         conexion.close();
+      }
+      catch (Exception e)
+      {
+         e.printStackTrace();
+      }
+      return listaLibros;
+   }
+    public static LinkedList<mostraradmin> getnombre()
    {
        
       LinkedList<mostrarlibros> listaLibros=new LinkedList<mostrarlibros>();
