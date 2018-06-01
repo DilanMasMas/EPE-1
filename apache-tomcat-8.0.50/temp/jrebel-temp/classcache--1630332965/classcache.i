@@ -3704,3 +3704,13 @@ org/apache/jsp/ingresar_005fadmin_jsp+-2050319031+.u2;22248810;12800
 org/apache/jsp/secciones/seccion_005fingLibro_jsp+-1690745103+.u2;22261610;11916
 org/apache/jsp/ingresar_005flibros_jsp+976151260+.u2;22273526;12300
 org/apache/jsp/ingresar_005flibros_jsp+-78028314+.u2;22285826;15449
+controlador/control+-1719870206+.u2;22301275;6322
+org/apache/jsp/secciones/seccion_005fadministracion_jsp+822650230+.u2;22307597;10912
+org/apache/jsp/secciones/seccion_005fadministracion_jsp+414451834+.u2;22318509;11053
+org/apache/jsp/secciones/seccion_005fadministracion_jsp+-200427518+.u2;22329562;11070
+org/apache/jsp/secciones/seccion_005fadministracion_jsp+53850540+.u2;22340632;11000
+org/apache/jsp/secciones/seccion_005fadministracion_jsp+1516482378+.u2;22351632;10989
+org/apache/jsp/secciones/seccion_005fadministracion_jsp+-1399260365+.u2;22362621;11094
+org/apache/jsp/secciones/seccion_005fadministracion_jsp+-98582822+.u2;22373715;11087
+org/apache/jsp/administracion_jsp+1560439714+.u2;22384802;14378
+org/apache/jsp/secciones/seccion_005fadministracion_jsp+-1275876774+.u2;22399180;10902
