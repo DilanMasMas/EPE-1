@@ -25,13 +25,15 @@
                    <h1 style="position: relative; left: 113px;">El Señor de los Anillos</h1>
                    
 
-        <img style="position: relative; left: 105px;" src="../imagenesLibros/anillo.jpg"> 
+                   <img style="position: relative; left: 105px;" src="../imagenesLibros/anillo.jpg" height="500" width="350"> 
     </article>
     <article style="position: relative; height: 150px; width: 500px; bottom: 940px; left: 330px; ">
         
         <h4><p  style="position: relative; left: 200px; top: 30px; color: blue;">
             Su historia se desarrolla en la Tercera Edad del Sol de la Tierra Media, un lugar ficticio poblado por hombres y otras razas antropomorfas como los hobbits, los elfos o los enanos, así como por muchas otras criaturas reales y fantásticas. La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador, el Señor oscuro Sauron.
         </p></h4>
+        
+        
         <article style="position: relative; left: 200px; top: 30px; color: blue;">
         <h4> 
             Este tiene distintos libros
@@ -47,9 +49,20 @@
         </h4>
          
     </article>
+    </article>
+        
     <head></head>
     
 </section>
+
+
+
+
+
+
+
+
+
 
 
 
