@@ -3739,3 +3739,15 @@ org/apache/jsp/Libros_jsp+-795281323+.u2;22730066;21224
 org/apache/jsp/Libros_jsp+722472074+.u2;22751290;21417
 org/apache/jsp/Libros_jsp+-819505628+.u2;22772707;21569
 org/apache/jsp/Libros_jsp+-1073323996+.u2;22794276;21571
+org/apache/jsp/administracion_jsp+1047152668+.u2;22815847;14371
+org/apache/jsp/secciones/seccion_005fingresarA_jsp+1753878885+.u2;22830218;10060
+org/apache/jsp/ingresar_005fadmin_jsp+-1842394164+.u2;22840278;13860
+org/apache/jsp/administracion_jsp+-1289714200+.u2;22854138;14382
+org/apache/jsp/ingresar_005flibros_jsp+-1287944567+.u2;22868520;15619
+sun/nio/cs/ISO_8859_1$1+-551361078+.s;22884139;334
+org/apache/jsp/Libros_jsp+-807745658+.u2;22884473;22008
+org/apache/jsp/Libros_jsp+89735902+.u2;22906481;22244
+org/apache/jsp/Libros_jsp+-1462524108+.u2;22928725;22691
+org/apache/jsp/Libros_jsp+350293762+.u2;22951416;22213
+org/apache/jsp/Libros_jsp+729670997+.u2;22973629;22194
+org/apache/jsp/Libros_jsp+-1591369185+.u2;22995823;22255

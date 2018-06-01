@@ -31,14 +31,15 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="login.jsp">Menu administracion <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="administracion.jsp">Menu administracion <span class="sr-only">(current)</span></a>
       </li>   
       <li class="nav-item">
-        <a class="nav-link" href="administracion.jsp">Login <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
       </li> 
     </ul>
   </div>
 </nav>
+
 
 
 
