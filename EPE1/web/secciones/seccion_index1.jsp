@@ -27,10 +27,17 @@
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
-      </li>   
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="Libros.jsp">Libros <span class="sr-only">(current)</span></a>
+      </li>
     </ul>
   </div>
 </nav>
+
+
+
+
 
 
 
