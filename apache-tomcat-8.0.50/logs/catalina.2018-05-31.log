@@ -1,0 +1,380 @@
+31-May-2018 00:33:32.990 INFORMACIÓN [http-apr-8080-exec-111] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 00:33:33.006 ADVERTENCIA [http-apr-8080-exec-111] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 00:33:33.260 INFORMACIÓN [223] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 00:33:37.404 INFORMACIÓN [http-apr-8080-exec-113] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/viernes04.05]
+31-May-2018 00:33:37.606 INFORMACIÓN [http-apr-8080-exec-113] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 00:33:38.130 INFORMACIÓN [http-apr-8080-exec-115] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 00:33:38.237 INFORMACIÓN [http-apr-8080-exec-115] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 00:34:19.434 INFORMACIÓN [http-apr-8080-exec-110] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 00:34:19.445 ADVERTENCIA [http-apr-8080-exec-110] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 00:34:19.555 INFORMACIÓN [http-apr-8080-exec-110] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 00:34:30.065 INFORMACIÓN [http-apr-8080-exec-123] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 00:34:30.179 INFORMACIÓN [http-apr-8080-exec-123] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 00:35:21.221 INFORMACIÓN [http-apr-8080-exec-118] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 00:35:21.232 ADVERTENCIA [http-apr-8080-exec-118] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 00:35:21.419 INFORMACIÓN [http-apr-8080-exec-118] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 00:35:24.992 INFORMACIÓN [http-apr-8080-exec-129] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 00:35:25.115 INFORMACIÓN [http-apr-8080-exec-129] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 01:32:30.104 INFORMACIÓN [http-apr-8080-exec-131] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 01:32:30.126 ADVERTENCIA [http-apr-8080-exec-131] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 01:32:30.377 INFORMACIÓN [http-apr-8080-exec-131] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 01:32:30.411 INFORMACIÓN [http-apr-8080-exec-137] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 01:32:30.491 INFORMACIÓN [http-apr-8080-exec-137] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 01:57:24.433 INFORMACIÓN [http-apr-8080-exec-141] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 01:57:24.590 INFORMACIÓN [http-apr-8080-exec-141] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 02:20:42.492 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+31-May-2018 02:20:42.493 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+31-May-2018 02:20:42.545 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 02:20:42.596 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+31-May-2018 02:20:42.665 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+31-May-2018 02:20:42.734 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 02:20:42.792 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+31-May-2018 02:20:42.793 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.50
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 7 2018 20:06:05 UTC
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.50.0
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-May-2018 08:57:27.737 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\logging.properties
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LAPTOP-46SDPB12
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\temp
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat 1.2.16 con la versión APR 1.6.3.
+31-May-2018 08:57:27.752 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+31-May-2018 08:57:28.909 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente (OpenSSL 1.0.2m  2 Nov 2017)
+31-May-2018 08:57:29.284 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+31-May-2018 08:57:29.331 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 08:57:29.346 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2706 ms
+31-May-2018 08:57:29.565 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+31-May-2018 08:57:29.565 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.50
+31-May-2018 08:57:29.596 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\EPE1.xml
+31-May-2018 08:57:31.534 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2018 08:57:31.877 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [265] milliseconds.
+31-May-2018 08:57:32.127 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\EPE1.xml has finished in 2.531 ms
+31-May-2018 08:57:32.127 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\item3.xml
+31-May-2018 08:57:32.221 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\item3.xml has finished in 94 ms
+31-May-2018 08:57:32.221 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml
+31-May-2018 08:57:32.346 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml has finished in 125 ms
+31-May-2018 08:57:32.346 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes04.05.xml
+31-May-2018 08:57:33.143 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2018 08:57:33.143 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes04.05.xml has finished in 797 ms
+31-May-2018 08:57:33.143 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes13.xml
+31-May-2018 08:57:33.221 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes13.xml has finished in 78 ms
+31-May-2018 08:57:33.221 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes23.xml
+31-May-2018 08:57:33.315 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes23.xml has finished in 94 ms
+31-May-2018 08:57:33.315 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes27.xml
+31-May-2018 08:57:33.456 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes27.xml has finished in 141 ms
+31-May-2018 08:57:33.471 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs de la aplicación web
+31-May-2018 08:57:33.534 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs has finished in 63 ms
+31-May-2018 08:57:33.534 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples de la aplicación web
+31-May-2018 08:57:36.461 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples has finished in 2.927 ms
+31-May-2018 08:57:36.461 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager de la aplicación web
+31-May-2018 08:57:36.535 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager has finished in 74 ms
+31-May-2018 08:57:36.535 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager de la aplicación web
+31-May-2018 08:57:36.692 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager has finished in 157 ms
+31-May-2018 08:57:36.692 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT de la aplicación web
+31-May-2018 08:57:36.770 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT has finished in 78 ms
+31-May-2018 08:57:36.770 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+31-May-2018 08:57:36.848 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 08:57:36.864 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 7512 ms
+31-May-2018 08:57:38.823 INFORMACIÓN [http-apr-8080-exec-6] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 08:57:39.385 INFORMACIÓN [http-apr-8080-exec-6] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 09:32:28.851 INFORMACIÓN [http-apr-8080-exec-15] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 09:32:28.882 ADVERTENCIA [http-apr-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 09:32:29.357 INFORMACIÓN [http-apr-8080-exec-15] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 09:34:59.092 INFORMACIÓN [http-apr-8080-exec-14] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 09:34:59.464 INFORMACIÓN [http-apr-8080-exec-14] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 09:35:14.139 INFORMACIÓN [http-apr-8080-exec-20] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 09:35:14.543 INFORMACIÓN [http-apr-8080-exec-20] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 09:36:50.968 INFORMACIÓN [http-apr-8080-exec-32] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 09:36:50.999 ADVERTENCIA [http-apr-8080-exec-32] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 09:36:51.293 INFORMACIÓN [http-apr-8080-exec-32] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 11:19:39.684 INFORMACIÓN [http-apr-8080-exec-38] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/viernes04.05]
+31-May-2018 11:19:39.800 ADVERTENCIA [http-apr-8080-exec-38] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [viernes04.05] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+31-May-2018 11:19:43.133 INFORMACIÓN [http-apr-8080-exec-38] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 11:19:43.218 INFORMACIÓN [http-apr-8080-exec-35] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 11:19:43.226 ADVERTENCIA [http-apr-8080-exec-35] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 11:19:44.830 INFORMACIÓN [http-apr-8080-exec-35] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 11:19:57.174 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+31-May-2018 11:19:57.176 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+31-May-2018 11:19:57.231 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 11:19:57.282 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+31-May-2018 11:19:57.482 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+31-May-2018 11:19:57.539 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 11:19:57.594 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+31-May-2018 11:19:57.595 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.50
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 7 2018 20:06:05 UTC
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.50.0
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\logging.properties
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LAPTOP-46SDPB12
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\temp
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat 1.2.16 con la versión APR 1.6.3.
+31-May-2018 12:01:09.506 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+31-May-2018 12:01:10.209 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente (OpenSSL 1.0.2m  2 Nov 2017)
+31-May-2018 12:01:10.350 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+31-May-2018 12:01:10.366 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 12:01:10.366 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1319 ms
+31-May-2018 12:01:10.397 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+31-May-2018 12:01:10.397 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.50
+31-May-2018 12:01:10.725 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\EPE1.xml
+31-May-2018 12:01:11.631 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2018 12:01:11.803 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [125] milliseconds.
+31-May-2018 12:01:11.834 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\EPE1.xml has finished in 1.109 ms
+31-May-2018 12:01:11.834 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\item3.xml
+31-May-2018 12:01:11.866 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\item3.xml has finished in 32 ms
+31-May-2018 12:01:11.866 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml
+31-May-2018 12:01:11.913 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml has finished in 47 ms
+31-May-2018 12:01:11.913 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes04.05.xml
+31-May-2018 12:01:13.022 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2018 12:01:13.022 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes04.05.xml has finished in 1.109 ms
+31-May-2018 12:01:13.022 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes13.xml
+31-May-2018 12:01:13.038 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes13.xml has finished in 16 ms
+31-May-2018 12:01:13.038 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes23.xml
+31-May-2018 12:01:13.084 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes23.xml has finished in 46 ms
+31-May-2018 12:01:13.084 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes27.xml
+31-May-2018 12:01:13.147 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes27.xml has finished in 63 ms
+31-May-2018 12:01:13.147 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs de la aplicación web
+31-May-2018 12:01:13.225 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs has finished in 78 ms
+31-May-2018 12:01:13.225 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples de la aplicación web
+31-May-2018 12:01:14.694 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples has finished in 1.469 ms
+31-May-2018 12:01:14.694 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager de la aplicación web
+31-May-2018 12:01:14.741 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager has finished in 47 ms
+31-May-2018 12:01:14.741 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager de la aplicación web
+31-May-2018 12:01:14.881 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager has finished in 140 ms
+31-May-2018 12:01:14.881 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT de la aplicación web
+31-May-2018 12:01:14.897 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT has finished in 16 ms
+31-May-2018 12:01:14.913 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+31-May-2018 12:01:14.913 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 12:01:14.928 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 4561 ms
+31-May-2018 12:01:16.178 INFORMACIÓN [http-apr-8080-exec-4] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:01:16.413 INFORMACIÓN [http-apr-8080-exec-4] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:24:14.579 INFORMACIÓN [http-apr-8080-exec-18] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:24:14.595 ADVERTENCIA [http-apr-8080-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 12:24:14.892 INFORMACIÓN [http-apr-8080-exec-18] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:24:15.611 INFORMACIÓN [http-apr-8080-exec-17] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:24:15.751 INFORMACIÓN [http-apr-8080-exec-17] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:24:16.347 INFORMACIÓN [http-apr-8080-exec-19] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:24:16.505 INFORMACIÓN [http-apr-8080-exec-19] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:35:50.744 INFORMACIÓN [http-apr-8080-exec-31] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:35:50.884 INFORMACIÓN [http-apr-8080-exec-31] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:35:50.931 INFORMACIÓN [http-apr-8080-exec-30] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:35:51.087 INFORMACIÓN [http-apr-8080-exec-30] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:36:43.743 INFORMACIÓN [http-apr-8080-exec-26] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:36:43.868 INFORMACIÓN [http-apr-8080-exec-26] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:39:33.228 INFORMACIÓN [http-apr-8080-exec-28] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:39:33.384 INFORMACIÓN [http-apr-8080-exec-28] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:39:33.860 INFORMACIÓN [http-apr-8080-exec-27] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:39:33.985 INFORMACIÓN [http-apr-8080-exec-27] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:44:33.281 INFORMACIÓN [http-apr-8080-exec-26] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:44:33.438 INFORMACIÓN [http-apr-8080-exec-26] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:44:47.275 INFORMACIÓN [http-apr-8080-exec-43] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:44:47.400 INFORMACIÓN [http-apr-8080-exec-43] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:46:01.720 INFORMACIÓN [http-apr-8080-exec-47] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:46:01.735 ADVERTENCIA [http-apr-8080-exec-47] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 12:46:01.877 INFORMACIÓN [http-apr-8080-exec-47] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:46:15.290 INFORMACIÓN [http-apr-8080-exec-28] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:46:15.415 INFORMACIÓN [http-apr-8080-exec-28] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:46:21.782 INFORMACIÓN [http-apr-8080-exec-51] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:46:21.936 INFORMACIÓN [http-apr-8080-exec-51] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:46:52.029 INFORMACIÓN [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:46:52.045 ADVERTENCIA [http-apr-8080-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 12:46:52.180 INFORMACIÓN [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:46:57.368 INFORMACIÓN [http-apr-8080-exec-43] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:46:57.521 INFORMACIÓN [http-apr-8080-exec-43] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:48:08.283 INFORMACIÓN [http-apr-8080-exec-51] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:48:08.299 ADVERTENCIA [http-apr-8080-exec-51] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 12:48:08.418 INFORMACIÓN [http-apr-8080-exec-51] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:48:12.134 INFORMACIÓN [http-apr-8080-exec-60] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:48:12.259 INFORMACIÓN [http-apr-8080-exec-60] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:49:43.926 INFORMACIÓN [http-apr-8080-exec-60] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:49:43.942 ADVERTENCIA [http-apr-8080-exec-60] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 12:49:44.051 INFORMACIÓN [http-apr-8080-exec-60] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:49:49.375 INFORMACIÓN [http-apr-8080-exec-62] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:49:49.488 INFORMACIÓN [http-apr-8080-exec-62] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:51:10.269 INFORMACIÓN [http-apr-8080-exec-51] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:51:10.301 ADVERTENCIA [http-apr-8080-exec-51] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 12:51:10.434 INFORMACIÓN [http-apr-8080-exec-51] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:51:19.035 INFORMACIÓN [http-apr-8080-exec-68] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:51:19.145 INFORMACIÓN [http-apr-8080-exec-68] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 12:59:21.583 INFORMACIÓN [http-apr-8080-exec-79] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 12:59:21.598 ADVERTENCIA [http-apr-8080-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 12:59:21.708 INFORMACIÓN [http-apr-8080-exec-79] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 13:05:27.737 INFORMACIÓN [http-apr-8080-exec-77] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 13:05:27.862 INFORMACIÓN [http-apr-8080-exec-77] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 13:05:27.909 INFORMACIÓN [http-apr-8080-exec-83] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 13:05:28.019 INFORMACIÓN [http-apr-8080-exec-83] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 13:05:54.940 INFORMACIÓN [http-apr-8080-exec-77] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 13:05:55.096 INFORMACIÓN [http-apr-8080-exec-77] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 13:06:14.660 INFORMACIÓN [http-apr-8080-exec-82] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 13:06:14.831 INFORMACIÓN [http-apr-8080-exec-82] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 13:06:18.284 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+31-May-2018 13:06:18.300 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+31-May-2018 13:06:18.362 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 13:06:18.418 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+31-May-2018 13:06:18.480 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+31-May-2018 13:06:18.554 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 13:06:18.613 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+31-May-2018 13:06:18.613 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 15:54:55.192 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.50
+31-May-2018 15:54:55.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 7 2018 20:06:05 UTC
+31-May-2018 15:54:55.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.50.0
+31-May-2018 15:54:55.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-May-2018 15:54:55.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-May-2018 15:54:55.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-May-2018 15:54:55.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+31-May-2018 15:54:55.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+31-May-2018 15:54:55.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-May-2018 15:54:55.195 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 15:54:55.196 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 15:54:55.196 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\logging.properties
+31-May-2018 15:54:55.196 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-May-2018 15:54:55.196 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LAPTOP-46SDPB12
+31-May-2018 15:54:55.196 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-May-2018 15:54:55.196 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-May-2018 15:54:55.196 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-May-2018 15:54:55.197 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 15:54:55.197 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 15:54:55.197 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\temp
+31-May-2018 15:54:55.197 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat 1.2.16 con la versión APR 1.6.3.
+31-May-2018 15:54:55.197 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+31-May-2018 15:54:55.909 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente (OpenSSL 1.0.2m  2 Nov 2017)
+31-May-2018 15:54:56.044 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+31-May-2018 15:54:56.052 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 15:54:56.053 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1398 ms
+31-May-2018 15:54:56.088 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+31-May-2018 15:54:56.088 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.50
+31-May-2018 15:54:56.103 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\EPE1.xml
+31-May-2018 15:54:56.738 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2018 15:54:56.888 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+31-May-2018 15:54:56.995 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\EPE1.xml has finished in 892 ms
+31-May-2018 15:54:56.995 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\item3.xml
+31-May-2018 15:54:57.048 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\item3.xml has finished in 53 ms
+31-May-2018 15:54:57.048 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml
+31-May-2018 15:54:57.079 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml has finished in 31 ms
+31-May-2018 15:54:57.079 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes04.05.xml
+31-May-2018 15:54:57.355 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2018 15:54:57.358 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes04.05.xml has finished in 279 ms
+31-May-2018 15:54:57.358 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes13.xml
+31-May-2018 15:54:57.413 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes13.xml has finished in 54 ms
+31-May-2018 15:54:57.413 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes23.xml
+31-May-2018 15:54:57.511 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes23.xml has finished in 98 ms
+31-May-2018 15:54:57.512 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes27.xml
+31-May-2018 15:54:57.598 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes27.xml has finished in 86 ms
+31-May-2018 15:54:57.599 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs de la aplicación web
+31-May-2018 15:54:57.666 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs has finished in 67 ms
+31-May-2018 15:54:57.667 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples de la aplicación web
+31-May-2018 15:54:59.322 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples has finished in 1.655 ms
+31-May-2018 15:54:59.322 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager de la aplicación web
+31-May-2018 15:54:59.353 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager has finished in 31 ms
+31-May-2018 15:54:59.353 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager de la aplicación web
+31-May-2018 15:54:59.422 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager has finished in 68 ms
+31-May-2018 15:54:59.422 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT de la aplicación web
+31-May-2018 15:54:59.441 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT has finished in 19 ms
+31-May-2018 15:54:59.459 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+31-May-2018 15:54:59.469 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 15:54:59.472 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 3418 ms
+31-May-2018 15:55:00.488 INFORMACIÓN [http-apr-8080-exec-5] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 15:55:00.655 INFORMACIÓN [http-apr-8080-exec-5] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 16:07:06.201 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+31-May-2018 16:07:06.202 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+31-May-2018 16:07:06.268 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 16:07:06.333 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+31-May-2018 16:07:06.733 ADVERTENCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 16:07:06.901 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+31-May-2018 16:07:06.976 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 16:07:07.081 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+31-May-2018 16:07:07.082 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 16:13:13.933 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.50
+31-May-2018 16:13:13.938 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 7 2018 20:06:05 UTC
+31-May-2018 16:13:13.938 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.50.0
+31-May-2018 16:13:13.938 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-May-2018 16:13:13.939 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-May-2018 16:13:13.939 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-May-2018 16:13:13.939 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+31-May-2018 16:13:13.939 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+31-May-2018 16:13:13.939 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-May-2018 16:13:13.940 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 16:13:13.940 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 16:13:13.940 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\logging.properties
+31-May-2018 16:13:13.941 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-May-2018 16:13:13.941 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LAPTOP-46SDPB12
+31-May-2018 16:13:13.941 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-May-2018 16:13:13.941 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-May-2018 16:13:13.941 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-May-2018 16:13:13.942 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 16:13:13.946 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+31-May-2018 16:13:13.946 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\temp
+31-May-2018 16:13:13.947 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat 1.2.16 con la versión APR 1.6.3.
+31-May-2018 16:13:13.947 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+31-May-2018 16:13:15.012 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente (OpenSSL 1.0.2m  2 Nov 2017)
+31-May-2018 16:13:15.196 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+31-May-2018 16:13:15.204 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 16:13:15.205 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1973 ms
+31-May-2018 16:13:15.250 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+31-May-2018 16:13:15.250 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.50
+31-May-2018 16:13:15.264 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\EPE1.xml
+31-May-2018 16:13:15.920 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2018 16:13:16.152 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [179] milliseconds.
+31-May-2018 16:13:16.304 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\EPE1.xml has finished in 1.040 ms
+31-May-2018 16:13:16.305 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\item3.xml
+31-May-2018 16:13:16.390 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\item3.xml has finished in 85 ms
+31-May-2018 16:13:16.390 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml
+31-May-2018 16:13:16.429 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml has finished in 39 ms
+31-May-2018 16:13:16.430 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes04.05.xml
+31-May-2018 16:13:16.812 INFORMACIÓN [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2018 16:13:16.815 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes04.05.xml has finished in 385 ms
+31-May-2018 16:13:16.816 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes13.xml
+31-May-2018 16:13:16.855 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes13.xml has finished in 38 ms
+31-May-2018 16:13:16.855 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes23.xml
+31-May-2018 16:13:16.924 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes23.xml has finished in 69 ms
+31-May-2018 16:13:16.925 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes27.xml
+31-May-2018 16:13:16.994 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\viernes27.xml has finished in 68 ms
+31-May-2018 16:13:16.995 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs de la aplicación web
+31-May-2018 16:13:17.029 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs has finished in 34 ms
+31-May-2018 16:13:17.030 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples de la aplicación web
+31-May-2018 16:13:17.554 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples has finished in 524 ms
+31-May-2018 16:13:17.554 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager de la aplicación web
+31-May-2018 16:13:17.593 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager has finished in 39 ms
+31-May-2018 16:13:17.594 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager de la aplicación web
+31-May-2018 16:13:17.632 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager has finished in 37 ms
+31-May-2018 16:13:17.632 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT de la aplicación web
+31-May-2018 16:13:17.657 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT has finished in 25 ms
+31-May-2018 16:13:17.691 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+31-May-2018 16:13:17.709 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+31-May-2018 16:13:17.715 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 2509 ms
+31-May-2018 16:39:59.087 INFORMACIÓN [http-apr-8080-exec-2] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 16:39:59.275 INFORMACIÓN [http-apr-8080-exec-2] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 16:54:31.655 INFORMACIÓN [http-apr-8080-exec-12] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 16:54:31.903 INFORMACIÓN [http-apr-8080-exec-12] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+31-May-2018 19:48:39.876 INFORMACIÓN [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/EPE1]
+31-May-2018 19:48:39.888 ADVERTENCIA [http-apr-8080-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [EPE1] registró el conductor JDBC [com.mysql.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2018 19:48:40.224 INFORMACIÓN [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
