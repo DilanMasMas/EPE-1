@@ -1,17 +1,25 @@
-<%-- 
-    Document   : seccion_ingresarA
-    Created on : 01-06-2018, 4:13:38
-    Author     : Dilan
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<div align="center" >
+    <h1>Ingresar Administrador</h1>
+    <form action="i_admin" method="post">
+            <div >
+               <div class="form-group" >
+    <label for="exampleInputEmail1">Nombre:</label>
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su Nombre Completo" name="nombre">
+  </div>
+              
+                          <div class="form-group" >
+    <label for="exampleInputEmail1">Cargo:</label>
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su cargo" name="cargo">
+  </div>
+               
+                          <div class="form-group" >
+    <label for="exampleInputEmail1">Nombre de usuario:</label>
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su nombre de usuario" name="nombre_u">
+  </div>
+                 <div class="form-group" >
+    <label for="exampleInputEmail1">Contraseña:</label>
+    <input style="width: 300px;" type="text" class="form-control" id="exampleInputUser" placeholder="Ingrese su contraseña" name="contraseña">
+  </div>
+     <button type="submit" class="btn btn-primary">Insertar</button>
+  </div >
+</div>

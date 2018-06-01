@@ -24,7 +24,7 @@ public class mostrarcliente {
 	public int getId_c() {
 		return id_c;
 	}
-	public void setId_l(int id_l) {
+	public void setId_c(int id_l) {
 		this.id_c = id_c;
 	}
 	public String getDireccion() {
