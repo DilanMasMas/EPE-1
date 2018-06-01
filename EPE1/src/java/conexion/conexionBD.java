@@ -93,6 +93,111 @@ public class conexionBD {
     }
         return mensaje2;
     }
+     public String ingresar_libro(String libro, String autor, String genero, int stock){
+
+         String mensaje2=null;
+         
+    try{
+        Class.forName("com.mysql.jdbc.Driver");
+    conexion = DriverManager.getConnection(url,usuario,password);
+    sentencia = conexion.createStatement();
+    String SQL = "INSERT INTO libros (id_l, libro, autor, genero, stock) VALUES (null,'"+libro+"','"+autor+"','"+genero+"','"+stock+"');";
+    sentencia.executeUpdate(SQL);
+          mensaje2 ="<script>alert('Datos ingresados correctamente');"
+                    + "location.href='ingresar_libros.jsp';"
+                    + "</script>";
+    sentencia.close();
+    conexion.close();
+    
+    }catch(ClassNotFoundException | SQLException Error){
+     mensaje2 = "<script>alert('Error en el sistema');</script>";
+    }
+        return mensaje2;
+    }
+     public String eliminar_admin(String nombre, String cargo, String nombre_u, String contraseña){
+
+         String mensaje2=null;
+         
+    try{
+        Class.forName("com.mysql.jdbc.Driver");
+    conexion = DriverManager.getConnection(url,usuario,password);
+    sentencia = conexion.createStatement();
+    String SQL = "INSERT INTO administradores (id_u, nombre, cargo, nombre_u, contraseña) VALUES (null,'"+nombre+"','"+cargo+"','"+nombre_u+"','"+contraseña+"');";
+    sentencia.executeUpdate(SQL);
+          mensaje2 ="<script>alert('Datos ingresados correctamente');"
+                    + "location.href='ingresar_admin.jsp';"
+                    + "</script>";; 
+    sentencia.close();
+    conexion.close();
+    
+    }catch(ClassNotFoundException | SQLException Error){
+     mensaje2 = "<script>alert('Error en el sistema');</script>";
+    }
+        return mensaje2;
+    }
+     public String eliminar_cliente(String nombre, String cargo, String nombre_u, String contraseña){
+
+         String mensaje2=null;
+         
+    try{
+        Class.forName("com.mysql.jdbc.Driver");
+    conexion = DriverManager.getConnection(url,usuario,password);
+    sentencia = conexion.createStatement();
+    String SQL = "INSERT INTO administradores (id_u, nombre, cargo, nombre_u, contraseña) VALUES (null,'"+nombre+"','"+cargo+"','"+nombre_u+"','"+contraseña+"');";
+    sentencia.executeUpdate(SQL);
+          mensaje2 ="<script>alert('Datos ingresados correctamente');"
+                    + "location.href='ingresar_admin.jsp';"
+                    + "</script>";; 
+    sentencia.close();
+    conexion.close();
+    
+    }catch(ClassNotFoundException | SQLException Error){
+     mensaje2 = "<script>alert('Error en el sistema');</script>";
+    }
+        return mensaje2;
+    }
+     public String eliminar_libro(String nombre, String cargo, String nombre_u, String contraseña){
+
+         String mensaje2=null;
+         
+    try{
+        Class.forName("com.mysql.jdbc.Driver");
+    conexion = DriverManager.getConnection(url,usuario,password);
+    sentencia = conexion.createStatement();
+    String SQL = "INSERT INTO administradores (id_u, nombre, cargo, nombre_u, contraseña) VALUES (null,'"+nombre+"','"+cargo+"','"+nombre_u+"','"+contraseña+"');";
+    sentencia.executeUpdate(SQL);
+          mensaje2 ="<script>alert('Datos ingresados correctamente');"
+                    + "location.href='ingresar_admin.jsp';"
+                    + "</script>";; 
+    sentencia.close();
+    conexion.close();
+    
+    }catch(ClassNotFoundException | SQLException Error){
+     mensaje2 = "<script>alert('Error en el sistema');</script>";
+    }
+        return mensaje2;
+    }
+     public String editar_admin(String nombre, String cargo, String nombre_u, String contraseña){
+
+         String mensaje2=null;
+         
+    try{
+        Class.forName("com.mysql.jdbc.Driver");
+    conexion = DriverManager.getConnection(url,usuario,password);
+    sentencia = conexion.createStatement();
+    String SQL = "INSERT INTO administradores (id_u, nombre, cargo, nombre_u, contraseña) VALUES (null,'"+nombre+"','"+cargo+"','"+nombre_u+"','"+contraseña+"');";
+    sentencia.executeUpdate(SQL);
+          mensaje2 ="<script>alert('Datos ingresados correctamente');"
+                    + "location.href='ingresar_admin.jsp';"
+                    + "</script>";; 
+    sentencia.close();
+    conexion.close();
+    
+    }catch(ClassNotFoundException | SQLException Error){
+     mensaje2 = "<script>alert('Error en el sistema');</script>";
+    }
+        return mensaje2;
+    }
 }
     
     

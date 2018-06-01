@@ -5,7 +5,7 @@
 --%>
 
 <%@include file="secciones/seccion_administracion.jsp"  %>
-<div align="center">
+<div align="center" >
     <h1>Ingresar Administrador</h1>
     <form action="i_admin" method="post">
             <div >
