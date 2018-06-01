@@ -28,20 +28,26 @@
   <img src="secciones/img/img.png" width="45" height="45">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">  
     <span class="navbar-toggler-icon"></span>  
+    
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
+<<<<<<< HEAD
         <a class="nav-link" href="login.jsp">Login<span class="sr-only">(current)</span></a>
       </li>   
       <li class="nav-item">
         <a class="nav-link" href="administracion.jsp">Menu administracion  <span class="sr-only">(current)</span></a>
+=======
+        <a class="nav-link" href="administracion.jsp">Menu administracion <span class="sr-only">(current)</span></a>
+      </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
+>>>>>>> 8ae047f0836427311b8b41076f658c66f56a0ca1
       </li> 
     </ul>
   </div>
 </nav>
-
-
 
 
 

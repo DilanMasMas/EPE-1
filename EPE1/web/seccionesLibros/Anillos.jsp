@@ -16,16 +16,16 @@
 <body style=" background-image: url(http://www.hdfondos.eu/preview/get_photo/165226/1366/768);">
     
 <br>
-<h1 style="background-color: black; color: white;" align="center" >Información</h1>
+<h1><p style= "color: white;" align="center" >Información de libros</p></h1>
 
 <section>
     
     <article style="position: relative; top: 30px; height: 1000px; ">
 
-                   <h1 style="position: relative; left: 113px;">El Señor de los Anillos</h1>
+                   <h1 style= "position: relative; left: 113px; color: white;">El Señor de los Anillos</h1>
                    
 
-                   <img style="position: relative; left: 105px;" src="../imagenesLibros/anillo.jpg" height="500" width="350"> 
+                   <img style="position: relative; left: 105px;" src="imagenesLibros/anillo.jpg" height="500" width="350"> 
     </article>
     <article style="position: relative; height: 150px; width: 500px; bottom: 940px; left: 330px; ">
         
@@ -54,6 +54,10 @@
     <head></head>
     
 </section>
+
+
+
+
 
 
 
