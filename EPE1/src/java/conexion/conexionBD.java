@@ -66,7 +66,7 @@ public class conexionBD {
         
         alerta="<script>alert('BIENVENIDO');"
                     + "location.href='administracion.jsp';"
-                    + "</script>";;
+                    + "</script>";
         
     } else {
        alerta="<script>alert('Datos incorrectos');"
