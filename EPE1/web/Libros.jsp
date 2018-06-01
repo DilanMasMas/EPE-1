@@ -4,21 +4,20 @@
     Author     : chelo
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Bibliotica MMD</title>
-    </head>
-    <body style=" background-image: url(https://get.wallhere.com/photo/white-black-depth-of-field-wooden-surface-shadow-wood-books-green-writing-light-color-hand-material-shape-line-darkness-wing-1366x768-px-close-up-macro-photography-547399.jpg);">
-    
-    <body>
-        <h1>Información de libros</h1>
-        
-        
+        <%@include file="seccionesLibros/Comienzo.jsp" %>
+        <%@include file="seccionesLibros/Anillos.jsp" %>
+        <%@include file="seccionesLibros/Asylum.jsp" %>
+        <%@include file="seccionesLibros/HP.jsp" %>
+        <%@include file="seccionesLibros/IT.jsp" %>
+        <%@include file="seccionesLibros/PM.jsp" %>
+        <%@include file="seccionesLibros/SHE.jsp" %>
      
        
-    </body>
-</html>
+   
+
+
+
+
+
+
 
