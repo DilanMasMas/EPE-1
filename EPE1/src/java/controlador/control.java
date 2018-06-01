@@ -65,7 +65,7 @@ public class control extends HttpServlet {
     public static LinkedList<mostrarcliente> getNombre()
    {
        
-      LinkedList<mostrarlibros> listaLibros=new LinkedList<mostrarlibros>();
+      LinkedList<mostrarcliente> listacliente=new LinkedList<mostrarcliente>();
       
       try
       {
@@ -76,11 +76,13 @@ public class control extends HttpServlet {
          while (rs.next())
          {
             
-             mostrarlibros mLibros = new mostrarlibros();
-            mLibros.setId_l(rs.getInt("id_l"));
-            mLibros.setLibro(rs.getString("libro"));
-            mLibros.setStock(rs.getInt("stock"));
-            listaLibros.add(mLibros);
+             mostrarcliente mcliente = new mostrarcliente();
+            mcliente.setId_c(rs.getInt("id_c"));
+            mcliente.setNombre(rs.getString("libro"));
+            mcliente.setDireccion(rs.getString("stock"));
+            mcliente.setRut(rs.getInt("libro"));
+            mcliente.setLibro_p(rs.getInt("Libro_p"));
+            listacliente.add(mcliente);
          }
          rs.close();
          st.close();
@@ -90,7 +92,7 @@ public class control extends HttpServlet {
       {
          e.printStackTrace();
       }
-      return listaLibros;
+      return listacliente;
    }
     public static LinkedList<mostraradmin> getnombre()
    {
