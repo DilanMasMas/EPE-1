@@ -13,7 +13,7 @@
   <title>Arriendo de Libros</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="img/icon.ico">
+  <link rel="icon" href="secciones/img/icon.ico">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" crossorigin="anonymous"></script>
@@ -26,7 +26,6 @@
   <img src="secciones/img/img.png" width="45" height="45">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">  
     <span class="navbar-toggler-icon"></span>  
-    <img src="secciones/img/img.png"> 
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
@@ -36,6 +35,10 @@
     </ul>
   </div>
 </nav>
+
+
+
+
 
 
 
