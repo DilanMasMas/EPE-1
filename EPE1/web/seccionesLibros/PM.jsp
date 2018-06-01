@@ -5,7 +5,7 @@
     
     <article style="position: relative; top: 30px; height: 1000px; ">
 
-                   <h1 style="position: relative; left: 113px;">Papelucho y el Marciano</h1>
+                   <h1 style="position: relative; left: 113px; color: white;">Papelucho y el Marciano</h1>
                    
 
         <img style="position: relative; left: 105px;" src="imagenesLibros/PM.jpg" height="500" width="350"> 
@@ -34,6 +34,7 @@
     <head></head>
     
 </section>
+
 
 
 

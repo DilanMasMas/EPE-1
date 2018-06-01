@@ -5,7 +5,7 @@
     
     <article style="position: relative; top: 30px; height: 1000px; ">
 
-                   <h1 style="position: relative; left: 113px;">Harry Potter y La Piedra Filosofal</h1>
+                   <h1 style="position: relative; left: 113px; color: white;">Harry Potter y La Piedra Filosofal</h1>
                    
 
         <img style="position: relative; left: 105px;" src="imagenesLibros/HP.jpg" height="500" width="350"> 
@@ -31,6 +31,7 @@
     <head></head>
     
 </section>
+
 
 
 

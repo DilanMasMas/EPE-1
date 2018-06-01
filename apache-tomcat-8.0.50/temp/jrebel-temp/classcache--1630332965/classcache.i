@@ -3751,3 +3751,6 @@ org/apache/jsp/Libros_jsp+-1462524108+.u2;22928725;22691
 org/apache/jsp/Libros_jsp+350293762+.u2;22951416;22213
 org/apache/jsp/Libros_jsp+729670997+.u2;22973629;22194
 org/apache/jsp/Libros_jsp+-1591369185+.u2;22995823;22255
+org/apache/jsp/Libros_jsp+-1667494445+.u2;23018078;22250
+org/apache/jsp/Libros_jsp+1182989971+.u2;23040328;22275
+org/apache/jsp/Libros_jsp+1064646518+.u2;23062603;22400

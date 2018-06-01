@@ -5,7 +5,7 @@
     
     <article style="position: relative; top: 30px; height: 1000px; ">
 
-                   <h1 style="position: relative; left: 113px;">Las Aventuras de Sherlock Homes</h1>
+                   <h1 style="position: relative; left: 113px; color: white;">Las Aventuras de Sherlock Homes</h1>
                    
 
         <img style="position: relative; left: 105px;" src="imagenesLibros/SH.jpg" height="500" width="350"> 
@@ -22,6 +22,7 @@
 
 </body>
 </html> 
+
 
 
 
