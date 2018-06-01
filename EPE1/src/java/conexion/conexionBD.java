@@ -27,25 +27,15 @@ public class conexionBD {
         Class.forName("com.mysql.jdbc.Driver");
     conexion = DriverManager.getConnection(url,usuario,password);
     sentencia = conexion.createStatement();
-    /*String SQL = "INSERT INTO clientes (id_c, nombre, rut, direccion, libro_p) VALUES (null,'"+nombre+"','"+rut+"','"+direccion+"','"+libro+"');";
+    String SQL = "INSERT INTO clientes (id_c, nombre, rut, direccion, libro_p) VALUES (null,'"+nombre+"','"+rut+"','"+direccion+"','"+libro+"');";
     String SQL2 ="UPDATE libros SET stock = IFNULL(stock,0) - 1 WHERE id_l='"+libro+"';";
     sentencia.executeUpdate(SQL);
     sentencia.executeUpdate(SQL2);
+          mensaje ="<script>alert('Datos ingresados correctamente');"
+                    + "location.href='index.jsp';"
+                    + "</script>";; 
     sentencia.close();
-    conexion.close();*/
-    
-    resultados = sentencia.executeQuery("INSERT INTO clientes (id_c, nombre, rut, direccion, libro_p) VALUES (null,'"+nombre+"','"+rut+"','"+direccion+"','"+libro+"');");
-    resultados = sentencia.executeQuery("UPDATE libros SET stock = IFNULL(stock,0) - 1 WHERE id_l='"+libro+"';");
-    
-        if (resultados.next()) {
-            
-          mensaje ="<script>alert('Datos Ingresads correctamente');</script>";
-            
-        }else{
-        
-            mensaje= "<script>alert('Error al ingresar datos');</script>";
-        }
-    
+    conexion.close();
     
     }catch(ClassNotFoundException | SQLException Error){
      mensaje = "<script>alert('Error en el sistema');</script>";
@@ -82,6 +72,27 @@ public class conexionBD {
          return alerta;
      
      }
+     public String ingresar_admin(String nombre, String cargo, String nombre_u, String contraseña){
+
+         String mensaje2=null;
+         
+    try{
+        Class.forName("com.mysql.jdbc.Driver");
+    conexion = DriverManager.getConnection(url,usuario,password);
+    sentencia = conexion.createStatement();
+    String SQL = "INSERT INTO administradores (id_u, nombre, cargo, nombre_u, contraseña) VALUES (null,'"+nombre+"','"+cargo+"','"+nombre_u+"','"+contraseña+"');";
+    sentencia.executeUpdate(SQL);
+          mensaje2 ="<script>alert('Datos ingresados correctamente');"
+                    + "location.href='ingresar_admin.jsp';"
+                    + "</script>";; 
+    sentencia.close();
+    conexion.close();
+    
+    }catch(ClassNotFoundException | SQLException Error){
+     mensaje2 = "<script>alert('Error en el sistema');</script>";
+    }
+        return mensaje2;
+    }
 }
     
     
@@ -100,7 +111,11 @@ public class conexionBD {
     
     
     
-   /* public void Conx(){
+   /*
+
+
+
+public void Conx(){
     
          try {
            
