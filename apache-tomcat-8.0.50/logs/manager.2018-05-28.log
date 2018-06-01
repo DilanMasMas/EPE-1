@@ -1,0 +1,17 @@
+28-May-2018 20:58:49.012 INFORMACIÓN [http-apr-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+28-May-2018 20:58:49.013 INFORMACIÓN [http-apr-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+28-May-2018 20:58:49.014 INFORMACIÓN [http-apr-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-May-2018 20:58:49.037 INFORMACIÓN [http-apr-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-May-2018 20:58:49.149 INFORMACIÓN [http-apr-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/trabajo'
+28-May-2018 20:58:49.715 INFORMACIÓN [http-apr-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Dilan/AppData/Local/Temp/context1538591113343490026.xml'
+28-May-2018 20:58:49.778 INFORMACIÓN [http-apr-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/trabajo'
+28-May-2018 23:03:27.924 INFORMACIÓN [http-apr-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+28-May-2018 23:03:27.924 INFORMACIÓN [http-apr-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+28-May-2018 23:03:27.926 INFORMACIÓN [http-apr-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-May-2018 23:03:28.077 INFORMACIÓN [http-apr-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-May-2018 23:03:28.102 INFORMACIÓN [http-apr-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Dilan/AppData/Local/Temp/context1905490649543883459.xml'
+28-May-2018 23:03:28.198 INFORMACIÓN [http-apr-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/EPE1'
+28-May-2018 23:04:01.113 INFORMACIÓN [http-apr-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-May-2018 23:04:01.135 INFORMACIÓN [http-apr-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-May-2018 23:16:20.060 INFORMACIÓN [http-apr-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-May-2018 23:16:44.573 INFORMACIÓN [http-apr-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'

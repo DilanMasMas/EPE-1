@@ -1,0 +1,166 @@
+22-Mar-2018 00:20:41.012 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+22-Mar-2018 00:20:41.013 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 00:20:41.245 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 00:20:41.296 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+22-Mar-2018 00:20:41.494 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.50
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 7 2018 20:06:05 UTC
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.50.0
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\logging.properties
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LAPTOP-46SDPB12
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\temp
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat 1.2.16 con la versión APR 1.6.3.
+22-Mar-2018 08:50:21.572 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+22-Mar-2018 08:50:22.618 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente (OpenSSL 1.0.2m  2 Nov 2017)
+22-Mar-2018 08:50:22.931 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 08:50:22.962 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 08:50:22.978 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2316 ms
+22-Mar-2018 08:50:23.072 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+22-Mar-2018 08:50:23.072 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.50
+22-Mar-2018 08:50:23.087 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml
+22-Mar-2018 08:50:24.009 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml has finished in 922 ms
+22-Mar-2018 08:50:24.009 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs de la aplicación web
+22-Mar-2018 08:50:24.040 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs has finished in 31 ms
+22-Mar-2018 08:50:24.040 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples de la aplicación web
+22-Mar-2018 08:50:24.572 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples has finished in 532 ms
+22-Mar-2018 08:50:24.572 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager de la aplicación web
+22-Mar-2018 08:50:24.618 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager has finished in 46 ms
+22-Mar-2018 08:50:24.634 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager de la aplicación web
+22-Mar-2018 08:50:24.837 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager has finished in 203 ms
+22-Mar-2018 08:50:24.837 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT de la aplicación web
+22-Mar-2018 08:50:24.978 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT has finished in 141 ms
+22-Mar-2018 08:50:24.993 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 08:50:25.040 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 08:50:25.056 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 2076 ms
+22-Mar-2018 09:51:54.845 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+22-Mar-2018 09:51:54.845 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 09:51:54.923 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 09:51:54.985 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+22-Mar-2018 09:51:55.110 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 09:51:55.235 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 09:51:55.360 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 09:51:55.360 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 14:05:05.565 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.50
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 7 2018 20:06:05 UTC
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.50.0
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\logging.properties
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LAPTOP-46SDPB12
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\temp
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat 1.2.16 con la versión APR 1.6.3.
+22-Mar-2018 14:05:05.581 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+22-Mar-2018 14:05:06.630 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente (OpenSSL 1.0.2m  2 Nov 2017)
+22-Mar-2018 14:05:06.880 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 14:05:06.911 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 14:05:06.911 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1997 ms
+22-Mar-2018 14:05:07.146 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+22-Mar-2018 14:05:07.146 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.50
+22-Mar-2018 14:05:07.208 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml
+22-Mar-2018 14:05:07.911 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [141] milliseconds.
+22-Mar-2018 14:05:08.083 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml has finished in 875 ms
+22-Mar-2018 14:05:08.083 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs de la aplicación web
+22-Mar-2018 14:05:08.146 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs has finished in 63 ms
+22-Mar-2018 14:05:08.146 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples de la aplicación web
+22-Mar-2018 14:05:08.851 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples has finished in 705 ms
+22-Mar-2018 14:05:08.851 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager de la aplicación web
+22-Mar-2018 14:05:08.914 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager has finished in 63 ms
+22-Mar-2018 14:05:08.914 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager de la aplicación web
+22-Mar-2018 14:05:10.039 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager has finished in 1.125 ms
+22-Mar-2018 14:05:10.039 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT de la aplicación web
+22-Mar-2018 14:05:10.070 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT has finished in 31 ms
+22-Mar-2018 14:05:10.070 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 14:05:10.086 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 14:05:10.086 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 3182 ms
+22-Mar-2018 14:13:43.042 INFORMACIÓN [http-apr-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /trabajo
+22-Mar-2018 14:13:43.445 INFORMACIÓN [http-apr-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml
+22-Mar-2018 14:13:43.508 INFORMACIÓN [http-apr-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml has finished in 63 ms
+22-Mar-2018 14:16:01.048 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+22-Mar-2018 14:16:01.048 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 14:16:01.126 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 14:16:01.189 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+22-Mar-2018 14:16:01.236 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 14:16:01.298 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 14:16:01.361 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 14:16:01.361 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.50
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 7 2018 20:06:05 UTC
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.50.0
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\logging.properties
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LAPTOP-46SDPB12
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\temp
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat 1.2.16 con la versión APR 1.6.3.
+22-Mar-2018 14:17:06.234 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+22-Mar-2018 14:17:07.296 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente (OpenSSL 1.0.2m  2 Nov 2017)
+22-Mar-2018 14:17:07.781 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 14:17:07.796 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 14:17:07.999 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2584 ms
+22-Mar-2018 14:17:08.156 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio Catalina
+22-Mar-2018 14:17:08.156 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.50
+22-Mar-2018 14:17:08.187 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml
+22-Mar-2018 14:17:09.296 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+22-Mar-2018 14:17:09.343 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml has finished in 1.156 ms
+22-Mar-2018 14:17:09.343 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs de la aplicación web
+22-Mar-2018 14:17:09.406 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\docs has finished in 63 ms
+22-Mar-2018 14:17:09.406 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples de la aplicación web
+22-Mar-2018 14:17:10.187 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\examples has finished in 781 ms
+22-Mar-2018 14:17:10.187 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager de la aplicación web
+22-Mar-2018 14:17:10.218 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\host-manager has finished in 31 ms
+22-Mar-2018 14:17:10.218 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager de la aplicación web
+22-Mar-2018 14:17:10.296 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\manager has finished in 78 ms
+22-Mar-2018 14:17:10.296 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT de la aplicación web
+22-Mar-2018 14:17:10.359 INFORMACIÓN [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\webapps\ROOT has finished in 63 ms
+22-Mar-2018 14:17:10.359 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 14:17:10.375 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 14:17:10.375 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 2375 ms
+22-Mar-2018 14:17:12.753 INFORMACIÓN [http-apr-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /trabajo
+22-Mar-2018 14:17:12.784 INFORMACIÓN [http-apr-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml
+22-Mar-2018 14:17:12.862 INFORMACIÓN [http-apr-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Dilan\Downloads\apache-tomcat-8.0.50\conf\Catalina\localhost\trabajo.xml has finished in 78 ms
+22-Mar-2018 16:57:16.028 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+22-Mar-2018 16:57:16.028 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 16:57:16.106 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 16:57:16.168 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio Catalina
+22-Mar-2018 16:57:16.200 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 16:57:16.293 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+22-Mar-2018 16:57:16.356 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+22-Mar-2018 16:57:16.356 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
