@@ -15,7 +15,7 @@
     <a class="dropdown-item" href="eliminar_cliente.jsp">Eliminar</a>
   </div>
 </div>
-      <div class="dropdown">
+      <div  class="dropdown"  style= "postion: absolute; left: 110px; bottom: 38px;">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Libro
   </button>
@@ -25,7 +25,7 @@
     <a class="dropdown-item" href="eliminar_libros.jsp">Eliminar</a>
   </div>
 </div>
-      <div class="dropdown">
+      <div class="dropdown" style= "postion: absolute; left: 200px; bottom: 76px;">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Administracion
   </button>
@@ -34,7 +34,8 @@
     <a class="dropdown-item" href="editar_admin.jsp">Editar</a>
     <a class="dropdown-item" href="eliminar_admin.jsp">Eliminar</a>
   </div>
-      <div class="dropdown">
+          </div>
+      <div class="dropdown" style= "postion: absolute; left: 360px; bottom: 114px;">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Registros
   </button>
@@ -44,3 +45,4 @@
     <a class="dropdown-item" href="#">Eliminar</a>
   </div>
   </div>
+

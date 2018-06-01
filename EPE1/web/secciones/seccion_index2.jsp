@@ -1,4 +1,7 @@
-    <form action="control">
+    <%@page import="java.util.LinkedList"%>
+<%@page import="controlador.control"%>
+<%@page import="conexion.mostrarlibros"%>
+<form action="control">
             <div style="position: relative; top: 80px; left: 200px;">
                <div class="form-group" >
     <label for="exampleInputEmail1">Nombre:</label>
@@ -47,3 +50,4 @@ for (int i=0;i<lista.size();i++)
   </table>
       </div> 
 </form>
+
