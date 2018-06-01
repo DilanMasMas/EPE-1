@@ -24,7 +24,7 @@ public class mostraradmin {
 	public int getId_u() {
 		return id_u;
 	}
-	public void setId_l(int id_u) {
+	public void setId_u(int id_u) {
 		this.id_u = id_u;
 	}
 	public String getcargo() {
@@ -42,7 +42,7 @@ public class mostraradmin {
 	public String getcontraseña() {
 		return contraseña;
 	}
-	public void setStock(String contraseña) {
+	public void setcontraseña(String contraseña) {
 		this.contraseña = contraseña;
 	}
 }

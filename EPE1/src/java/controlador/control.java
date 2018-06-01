@@ -72,16 +72,16 @@ public class control extends HttpServlet {
          Class.forName("com.mysql.jdbc.Driver");
          Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteca", "root", "");
          Statement st = conexion.createStatement();
-         ResultSet rs = st.executeQuery("select * from libros" );
+         ResultSet rs = st.executeQuery("select * from clientes" );
          while (rs.next())
          {
             
              mostrarcliente mcliente = new mostrarcliente();
             mcliente.setId_c(rs.getInt("id_c"));
-            mcliente.setNombre(rs.getString("libro"));
-            mcliente.setDireccion(rs.getString("stock"));
-            mcliente.setRut(rs.getInt("libro"));
-            mcliente.setLibro_p(rs.getInt("Libro_p"));
+            mcliente.setNombre(rs.getString("nombre"));
+            mcliente.setDireccion(rs.getString("direccion"));
+            mcliente.setRut(rs.getInt("rut"));
+            mcliente.setLibro_p(rs.getInt("libro_p"));
             listacliente.add(mcliente);
          }
          rs.close();
@@ -97,22 +97,24 @@ public class control extends HttpServlet {
     public static LinkedList<mostraradmin> getnombre()
    {
        
-      LinkedList<mostrarlibros> listaLibros=new LinkedList<mostrarlibros>();
+      LinkedList<mostraradmin> listaadmin=new LinkedList<mostraradmin>();
       
       try
       {
          Class.forName("com.mysql.jdbc.Driver");
          Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/biblioteca", "root", "");
          Statement st = conexion.createStatement();
-         ResultSet rs = st.executeQuery("select * from libros" );
+         ResultSet rs = st.executeQuery("select * from administradores" );
          while (rs.next())
          {
             
-             mostrarlibros mLibros = new mostrarlibros();
-            mLibros.setId_l(rs.getInt("id_l"));
-            mLibros.setLibro(rs.getString("libro"));
-            mLibros.setStock(rs.getInt("stock"));
-            listaLibros.add(mLibros);
+             mostraradmin madmin = new mostraradmin();
+            madmin.setId_u(rs.getInt("id_u"));
+            madmin.setcargo(rs.getString("cargo"));
+            madmin.setnombre_u(rs.getString("nombre_u"));
+            madmin.setcontraseña(rs.getString("contraseña"));
+            madmin.setnombre(rs.getString("nombre"));
+            listaadmin.add(madmin);
          }
          rs.close();
          st.close();
@@ -122,7 +124,7 @@ public class control extends HttpServlet {
       {
          e.printStackTrace();
       }
-      return listaLibros;
+      return listaadmin;
    }
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>

@@ -114,7 +114,7 @@ public class conexionBD {
     }
         return mensaje2;
     }
-     public String eliminar_admin(String nombre, String cargo, String nombre_u, String contraseña){
+     public String eliminar_admin(int id_u){
 
          String mensaje2=null;
          
@@ -122,10 +122,10 @@ public class conexionBD {
         Class.forName("com.mysql.jdbc.Driver");
     conexion = DriverManager.getConnection(url,usuario,password);
     sentencia = conexion.createStatement();
-    String SQL = "INSERT INTO administradores (id_u, nombre, cargo, nombre_u, contraseña) VALUES (null,'"+nombre+"','"+cargo+"','"+nombre_u+"','"+contraseña+"');";
+    String SQL = "DELETE FROM administradores WHERE id_u ='"+id_u+"';";
     sentencia.executeUpdate(SQL);
-          mensaje2 ="<script>alert('Datos ingresados correctamente');"
-                    + "location.href='ingresar_admin.jsp';"
+          mensaje2 ="<script>alert('Datos eliminados correctamente');"
+                    + "location.href='eliminar_admin.jsp';"
                     + "</script>";; 
     sentencia.close();
     conexion.close();
@@ -135,7 +135,7 @@ public class conexionBD {
     }
         return mensaje2;
     }
-     public String eliminar_cliente(String nombre, String cargo, String nombre_u, String contraseña){
+     public String eliminar_cliente(int id_c){
 
          String mensaje2=null;
          
@@ -143,10 +143,10 @@ public class conexionBD {
         Class.forName("com.mysql.jdbc.Driver");
     conexion = DriverManager.getConnection(url,usuario,password);
     sentencia = conexion.createStatement();
-    String SQL = "INSERT INTO administradores (id_u, nombre, cargo, nombre_u, contraseña) VALUES (null,'"+nombre+"','"+cargo+"','"+nombre_u+"','"+contraseña+"');";
+    String SQL = "DELETE FROM clientes WHERE id_c ='"+id_c+"';";
     sentencia.executeUpdate(SQL);
-          mensaje2 ="<script>alert('Datos ingresados correctamente');"
-                    + "location.href='ingresar_admin.jsp';"
+          mensaje2 ="<script>alert('Datos eliminados correctamente');"
+                    + "location.href='eliminar_cliente.jsp';"
                     + "</script>";; 
     sentencia.close();
     conexion.close();
@@ -156,39 +156,18 @@ public class conexionBD {
     }
         return mensaje2;
     }
-     public String eliminar_libro(String nombre, String cargo, String nombre_u, String contraseña){
+     public String eliminar_libro(int id_l){
 
          String mensaje2=null;
          
-    try{
+   try{
         Class.forName("com.mysql.jdbc.Driver");
     conexion = DriverManager.getConnection(url,usuario,password);
     sentencia = conexion.createStatement();
-    String SQL = "INSERT INTO administradores (id_u, nombre, cargo, nombre_u, contraseña) VALUES (null,'"+nombre+"','"+cargo+"','"+nombre_u+"','"+contraseña+"');";
+    String SQL = "DELETE FROM libros WHERE id_l ='"+id_l+"';";
     sentencia.executeUpdate(SQL);
-          mensaje2 ="<script>alert('Datos ingresados correctamente');"
-                    + "location.href='ingresar_admin.jsp';"
-                    + "</script>";; 
-    sentencia.close();
-    conexion.close();
-    
-    }catch(ClassNotFoundException | SQLException Error){
-     mensaje2 = "<script>alert('Error en el sistema');</script>";
-    }
-        return mensaje2;
-    }
-     public String editar_admin(String nombre, String cargo, String nombre_u, String contraseña){
-
-         String mensaje2=null;
-         
-    try{
-        Class.forName("com.mysql.jdbc.Driver");
-    conexion = DriverManager.getConnection(url,usuario,password);
-    sentencia = conexion.createStatement();
-    String SQL = "INSERT INTO administradores (id_u, nombre, cargo, nombre_u, contraseña) VALUES (null,'"+nombre+"','"+cargo+"','"+nombre_u+"','"+contraseña+"');";
-    sentencia.executeUpdate(SQL);
-          mensaje2 ="<script>alert('Datos ingresados correctamente');"
-                    + "location.href='ingresar_admin.jsp';"
+          mensaje2 ="<script>alert('Datos eliminados correctamente');"
+                    + "location.href='eliminar_libros.jsp';"
                     + "</script>";; 
     sentencia.close();
     conexion.close();

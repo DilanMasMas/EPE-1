@@ -6,4 +6,3 @@
 
 <%@include file="secciones/seccion_administracion.jsp"  %>
 <%@include file="secciones/seccion_ingresarA.jsp"  %>
-<%@include file="secciones/seccion_index3.jsp" %>
